@@ -1,0 +1,9 @@
+.place__text {
+  display: block;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}

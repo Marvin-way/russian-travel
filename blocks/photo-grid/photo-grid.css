@@ -1,0 +1,7 @@
+.photo-grid {
+  display: flex;
+  align-self: center;
+  position: relative;
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
