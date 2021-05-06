@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Путешествия по России</title>
+  <title>Путешествие по России</title>
   <link rel="stylesheet" type="text/css" href="./pages/index.css" >
 </head>
 <body class="root">
@@ -23,8 +23,8 @@
        <p class="lead__subtitle">
         Настоящая страна не в выпусках новостей, а здесь.
        </p>
-       <figure class="lead__image">
-        <img src="./images/girl_in_train.jpg" 
+       <figure>
+        <img class="lead__image" src="./images/girl_in_train.jpg" 
         alt="Девушка лежит на боковой полке в плацкартном вагоне и смотрит в окно">
         <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
        </figure>
@@ -55,20 +55,18 @@
        </ul>
      </section>
      <section class="photo-grid">
-       <div class="photo-grid__main">
-        <img src="./images/__item-11.jpg" alt="Вид от первого лица из вагона в окно">
-        <img src="./images/__item-10.jpg" alt="Заснеженные горы">
-        <img src="./images/__item-9.jpg" alt="Собачка на стоге сена туманным утром">
-        <img src="./images/__item-8.jpg" alt="Пихты в тумане">
-        <img src="./images/__item-7.jpg" alt="Колесо Уаза на льду Байкала">
-        <img src="./images/__item-6.jpg" alt="Побережье моря">
-        <img src="./images/__item-5.jpg" alt="Пики на Эльбрусе">
-        <img src="./images/__item-4.jpg" alt="Бетонные блоки позади знака пешеходного перехода">
-        <img src="./images/__item-3.jpg" alt="Коричневые горы в тумане">
-        <img src="./images/__item-2.jpg" alt="Вид на заснеженный пик Камчаткского края из поля">
-        <img src="./images/__item-1.jpg" alt="верхушка горы рядом с морем">
-        <img src="./images/__item.jpg" alt="Горы в тумане">        
-       </div>
+        <img class="photo-grid__item" src="./images/__item-11.jpg" alt="Вид от первого лица из вагона в окно">
+        <img class="photo-grid__item" src="./images/__item-10.jpg" alt="Заснеженные горы">
+        <img class="photo-grid__item" src="./images/__item-9.jpg" alt="Собачка на стоге сена туманным утром">
+        <img class="photo-grid__item" src="./images/__item-8.jpg" alt="Пихты в тумане">
+        <img class="photo-grid__item" src="./images/__item-7.jpg" alt="Колесо Уаза на льду Байкала">
+        <img class="photo-grid__item" src="./images/__item-6.jpg" alt="Побережье моря">
+        <img class="photo-grid__item" src="./images/__item-5.jpg" alt="Пики на Эльбрусе">
+        <img class="photo-grid__item" src="./images/__item-4.jpg" alt="Бетонные блоки позади знака пешеходного перехода">
+        <img class="photo-grid__item" src="./images/__item-3.jpg" alt="Коричневые горы в тумане">
+        <img class="photo-grid__item" src="./images/__item-2.jpg" alt="Вид на заснеженный пик Камчаткского края из поля">
+        <img class="photo-grid__item" src="./images/__item-1.jpg" alt="верхушка горы рядом с морем">
+        <img class="photo-grid__item" src="./images/__item.jpg" alt="Горы в тумане">
      </section>
      <section class="places">
        <article class="place">
@@ -159,9 +157,6 @@
     </main>
     <section class="cover">
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
-      <!-- Как говорил Вадим Макеев ("Веб-стандарты") если изображение служит 
-       действително фоном, и не представляет собой какую-то 
-       обособленную структуру - можно ставить это изображение в background-->
        <h2 class="cover__title">
          До Байкала «на собаках»
        </h2>
@@ -172,11 +167,11 @@
     </section>
     <footer class="footer">
       <nav class="footer__links">
-        <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
-        <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
-        <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
-        <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
-        <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
+        <a href="https://yandex.ru/maps" target="_blank" class="footer__link">Карты</a>
+        <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link">Погода</a>
+        <a href="https://rasp.yandex.ru" target="_blank" class="footer__link">Расписание</a>
+        <a href="https://calendar.yandex.ru" target="_blank" class="footer__link">Календарь</a>
+        <a href="https://travel.yandex.ru" target="_blank" class="footer__link">Путешествия</a>
       </nav>
       <p class="footer__copyright">
         &#169; 2020. Данис Байрамгулов

@@ -1,5 +1,9 @@
 .content {
   padding: 0px 148px 0px;
-  display: flex;
-  flex-direction: column;
+}
+
+@media screen and (max-width: 1270px) {
+  .content {
+    padding: 0px 48px 0px;
+  } 
 }
