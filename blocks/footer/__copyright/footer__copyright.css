@@ -5,3 +5,8 @@
   line-height: 16px;
   text-align: right;
 }
+@media screen and (max-width: 680px) {
+  .footer__link {
+    line-height: 14px;
+  }
+}

@@ -5,3 +5,9 @@
   justify-content: space-between;
   min-width: 466px;
 }
+@media screen and (max-width: 680px) {
+  .footer__links {
+    flex-direction: column;
+    padding-bottom: 48px;
+  }
+}

@@ -8,3 +8,13 @@
 .header__lang-link_link_active {
   text-decoration: underline;
 }
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+@media screen and(max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
+}

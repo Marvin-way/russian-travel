@@ -8,3 +8,8 @@
   list-style-type: none;
   padding: 33px 0px 0px;
 }
+@media screen and (max-width: 320px) {
+  .intro__list {
+    padding-top: 34px;
+  }
+}
