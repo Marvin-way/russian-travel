@@ -9,14 +9,14 @@
 }
 @media screen and (max-width: 1024px) {
   .lead {
-    margin: 72px 48px 0px;
+    margin: 48px 48px 0px;
     max-width: 928px;
   }
 }
 @media screen and (max-width: 768px) {
   .lead {
     margin: 48px 0px 0px;
-    max-width: 768px;
+    max-width: 768px; 
   }
 }
 @media screen and (max-width: 320px) {

@@ -1,3 +1,10 @@
 .place__image {
   width: 100%;
 }
+
+@media screen and (max-width: 750px) {
+  .place__image {
+    height: 100%;
+    
+  }
+}
